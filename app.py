@@ -97,6 +97,3 @@ def checkout():
         return redirect(url_for('success'))
 
     return render_template('checkout.html', form=form)
-
-if __name__ == '__main__':
-    app.run(debug=False, host='0.0.0.0')
