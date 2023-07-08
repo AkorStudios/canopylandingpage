@@ -58,7 +58,7 @@
             height: 100vh;
         }
 
-        .hero-video {
+        .hero-image {
             position: fixed;
             top: 0;
             left: 0;
@@ -247,11 +247,9 @@
 
     <!-- Hero Section -->
     <section id="hero" class="hero-section">
-        <div class="parallax-bg"></div>
-        <video class="hero-video" autoplay muted loop>
-            <source src="https://streamable.com/p0bvha" type="video/mp4">
-        </video>
-        <div class="hero-content">
+        <div  class="parallax-bg"  ></div>
+        <!--<img class="hero-image" type="image/jpg" src="{{ url_for('static', filename='images/hero-image.j') }}"  >-->
+        <div class="hero-content"  style="background-image: url('static/images/hero-image.jpg'); background-repeat:no-repeat; background-size:100% 100%" >
             <h1>Revolutionize Your Farming</h1>
             <p>Discover Canopy's low-cost smart sensors for greenhouses and small farms</p>
             <a href="#pricing" class="btn btn-primary">Get Canopy</a>
