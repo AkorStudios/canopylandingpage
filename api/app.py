@@ -99,5 +99,5 @@ def checkout():
     return render_template('checkout.html', form=form)
 
 
-if __name__ == "__main__":
-    app.run(debug=True)
+# if __name__ == "__main__":
+#     app.run(debug=True)
